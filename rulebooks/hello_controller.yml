@@ -10,7 +10,7 @@
       action:
         run_job_template:
           name: hello
-          organization: Default
+          organization: VSI
           job_args:
             extra_vars:
               hello: Fred
