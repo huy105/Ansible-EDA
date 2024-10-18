@@ -9,8 +9,8 @@
     - name: Say Hello
       condition: event.payload.message == "Testing webhook"
       action:
-        run_job_template:
-          name: clear_data
+        run_workflow_template:
+          name: clear_data_workflow
           organization: VSI
           job_args:
             extra_vars:
