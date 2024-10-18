@@ -12,6 +12,8 @@
         run_job_template:
           name: clear_data
           organization: VSI
-
+          job_args:
+            extra_vars:
+              dir_path: "some path"
 # curl -H 'Content-type: application/json' -d "{\"message\":\"Testing webhook\"}" 10.128.2.67:5000/endpoint
 # curl -H "Content-type: application/json" -d '{"message":"Testing webhook"}' 10.128.2.67:5000/endpoint
