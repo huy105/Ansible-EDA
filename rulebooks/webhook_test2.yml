@@ -7,7 +7,7 @@
         port: 5000
   rules:
     - name: Say Hello
-      condition: event.payload.message == "Testing webhook"
+      condition: event.payload.message == "Testing webhook2"
       action:
         run_workflow_template:
           name: clear_data_workflow
